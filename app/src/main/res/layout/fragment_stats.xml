@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background">
+
+    <LinearLayout
+        android:id="@+id/statsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Статистика"
+            android:textColor="@color/text_main"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Количество записей: 0"
+            android:textColor="@color/text_main"
+            android:textSize="19sp"
+            android:background="@color/card_background"
+            android:padding="18dp"
+            android:elevation="2dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/textAverage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Средняя оценка: 0"
+            android:textColor="@color/text_main"
+            android:textSize="19sp"
+            android:background="@color/card_background"
+            android:padding="18dp"
+            android:elevation="2dp"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/textMin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Минимальная оценка: 0"
+            android:textColor="@color/text_main"
+            android:textSize="19sp"
+            android:background="@color/card_background"
+            android:padding="18dp"
+            android:elevation="2dp"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/textMax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Максимальная оценка: 0"
+            android:textColor="@color/text_main"
+            android:textSize="19sp"
+            android:background="@color/card_background"
+            android:padding="18dp"
+            android:elevation="2dp"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+
+</ScrollView>

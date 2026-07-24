@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="app_background">#F6F3EE</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <color name="primary">#4F8F8B</color>
+    <color name="primary_dark">#3F7572</color>
+
+    <color name="text_main">#2F3437</color>
+    <color name="text_secondary">#7A7A7A</color>
+
+    <color name="score_low">#D96C6C</color>
+    <color name="score_mid">#E6B85C</color>
+    <color name="score_high">#6BAF7A</color>
+
+    <color name="score_low_light">#F4C7C7</color>
+    <color name="score_mid_light">#F7E3B0</color>
+    <color name="score_high_light">#CFE8D5</color>
+
+</resources>

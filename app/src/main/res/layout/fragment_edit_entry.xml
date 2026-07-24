@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Редактирование"
+            android:textColor="@color/text_main"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textEditScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Оценка: 5"
+            android:textColor="@color/text_main"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="28dp" />
+
+        <SeekBar
+            android:id="@+id/seekEditScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="9"
+            android:progress="4"
+            android:progressTint="@color/primary"
+            android:thumbTint="@color/primary"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Настроение"
+            android:textColor="@color/text_main"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_marginTop="28dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnEditHappy"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="6dp"
+                android:text="😄"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:background="@drawable/button_round" />
+
+            <Button
+                android:id="@+id/btnEditSmile"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:text="🙂"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:background="@drawable/button_round" />
+
+            <Button
+                android:id="@+id/btnEditNeutral"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:text="😐"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:background="@drawable/button_round" />
+
+            <Button
+                android:id="@+id/btnEditSad"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:text="😔"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:background="@drawable/button_round" />
+
+            <Button
+                android:id="@+id/btnEditAngry"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginStart="6dp"
+                android:text="😡"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:background="@drawable/button_round" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Комментарий"
+            android:textColor="@color/text_main"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_marginTop="28dp" />
+
+        <EditText
+            android:id="@+id/editEditComment"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Комментарий"
+            android:textColor="@color/text_main"
+            android:textColorHint="@color/text_secondary"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:background="@color/card_background"
+            android:padding="14dp"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnUpdateEntry"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Сохранить изменения"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            android:background="@drawable/button_round"
+            android:layout_marginTop="28dp" />
+
+    </LinearLayout>
+
+</ScrollView>
